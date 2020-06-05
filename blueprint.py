@@ -150,7 +150,7 @@ class HelloPackage(Package):
 
 class HelloVmResources(AhvVmResources):
 
-    memory = 4
+    memory = 8
     vCPUs = 4
     cores_per_vCPU = 1
     disks = [
